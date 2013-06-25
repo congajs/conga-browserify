@@ -1,0 +1,11 @@
+# browserify config
+browserify:
+
+    # bundles to create
+    bundles:
+
+        # mybundle:
+        #     path: js/user.js
+        #     expose: user
+        #     src:
+        #         - demo-bundle:model/user

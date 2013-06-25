@@ -1,0 +1,28 @@
+{
+  "name": "conga-browserify",
+  "version": "0.0.1",
+  "description": "Conga.js bundle which provides browserify functionality to projects",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/congajs/conga-browserify.git"
+  },
+  "keywords": [
+
+  ],
+  "author": "Marc Roulias",
+  "license": "MIT",
+  "dependencies": {
+    "async": "0.2.9",
+    "browserify": "2.21.0"
+  },
+  "devDependencies": {
+
+  },
+  "readmeFilename": "README.md"
+}

@@ -1,0 +1,11 @@
+parameters:
+
+    browserify.handler.constructor: conga-browserify:browserify
+
+services:
+
+    browserify.handler:
+        constructor: %browserify.handler.constructor%
+        arguments: []
+        tags:
+            - { name: app.middleware, method: onAddMiddleware }
