@@ -18,7 +18,6 @@
   "author": "Marc Roulias",
   "license": "MIT",
   "dependencies": {
-    "async": "0.2.9",
     "browserify": "2.21.0"
   },
   "devDependencies": {
